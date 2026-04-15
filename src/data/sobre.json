@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "title": "Sobre Nós",
+    "description": "Conheça o INSTITUTOPROGREDIR"
+  },
+  "hero": {
+    "title": "Sobre Nós",
+    "subtitle": "No INSTITUTOPROGREDIR, temos como missão orientar líderes em sua jornada de transformação. Acreditamos que um líder exemplar deve servir como um modelo e, ao mesmo tempo, executar tarefas de forma eficaz. Nós fornecemos ferramentas para construir uma liderança forte e uma marca de destaque no mundo digital."
+  },
+  "content": "O INSTITUTOPROGREDIR foi criado com a visão de mudar a forma como líderes e empreendedores se conectam e se desenvolvem no ambiente digital. A partir de princípios de liderança e técnicas modernas de marketing, trabalhamos para que cada líder se torne um verdadeiro agente de mudança dentro de sua organização.",
+  "mission": "Nossa missão é orientar líderes a fazerem um trabalho eficiente e que culminem em resultados positivos para seus colaboradores e clientes.",
+  "image": "/images/sobre.jpg",
+  "stats": [
+    {
+      "value": "500+",
+      "label": "Artigos"
+    },
+    {
+      "value": "100k+",
+      "label": "Leitores"
+    },
+    {
+      "value": "5",
+      "label": "Redatores"
+    }
+  ],
+  "team": []
+}

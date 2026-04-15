@@ -1,0 +1,60 @@
+---
+// Footer-J: Dark Textured / Pattern - Design imersivo e detalhado
+import siteConfig from '../data/siteConfig.json';
+const { name, email = 'contato@sf.com', menu = [] } = siteConfig as any;
+const year = new Date().getFullYear();
+---
+<footer class="bg-[#0f0f0f] text-white relative overflow-hidden py-24">
+  <!-- Grid Pattern Overlay -->
+  <div class="absolute inset-0 opacity-[0.03]" style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 40px 40px;"></div>
+  
+  <div class="max-w-6xl mx-auto px-4 relative z-10">
+    <div class="grid lg:grid-cols-2 gap-20 items-center mb-24">
+      
+      <!-- Esquerda: CTA Grande -->
+      <div class="text-center lg:text-left">
+        <h2 class="text-4xl md:text-6xl font-black tracking-tighter leading-none mb-8 transition-all hover:text-primary cursor-default uppercase">
+          Vamos Conversar?
+        </h2>
+        <div class="flex flex-col sm:flex-row items-center gap-6 justify-center lg:justify-start">
+           <a href={`mailto:${email}`} class="text-xl md:text-3xl font-black text-white/40 hover:text-white transition-all underline decoration-primary decoration-4 underline-offset-8">
+             {email}
+           </a>
+        </div>
+      </div>
+
+      <!-- Direita: Menu e Infos -->
+      <div class="grid grid-cols-2 gap-12 text-left">
+        <div>
+           <h4 class="text-[10px] font-black uppercase tracking-[0.4em] text-white/30 mb-8">Navegação</h4>
+           <ul class="space-y-4">
+              {menu.map((item: any) => (
+                <li><a href={item.href} class="text-sm font-bold text-white/60 hover:text-white transition-colors">{item.label}</a></li>
+              ))}
+           </ul>
+        </div>
+        <div>
+           <h4 class="text-[10px] font-black uppercase tracking-[0.4em] text-white/30 mb-8">Institucional</h4>
+           <ul class="space-y-4">
+              <li><a href="/sobre" class="text-sm font-bold text-white/60 hover:text-white transition-colors">Sobre Nós</a></li>
+              <li><a href="/privacidade" class="text-sm font-bold text-white/60 hover:text-white transition-colors">Privacidade</a></li>
+              <li><a href="/contato" class="text-sm font-bold text-white/60 hover:text-white transition-colors">Contato</a></li>
+           </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Bar Stylized -->
+    <div class="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-12">
+       <div class="flex items-center gap-4">
+          <div class="w-10 h-10 bg-primary/20 rounded-xl flex items-center justify-center text-primary text-xl font-black">
+             {name.charAt(0).toUpperCase()}
+          </div>
+          <div>
+             <div class="text-[11px] font-black uppercase tracking-[0.2em]">{name}</div>
+             <div class="text-[9px] font-bold text-white/20 uppercase tracking-widest">© {year} Todos os direitos reservados</div>
+          </div>
+       </div>
+    </div>
+  </div>
+</footer>

@@ -1,0 +1,53 @@
+{
+  "name": "INSTITUTOPROGREDIR",
+  "slug": "institutoprogredir.com.br",
+  "description": "Nossa missão é orientar líderes a fazerem um trabalho eficiente e que culminem em resultados com seus clientes, liderados e outros líderes. Falamos de princípios de liderança, como construir uma autoridade com o advento da internet, e como utilizar o marketing digital para vender mais e para propiciar maior conhecimento de marca pessoal ou empresarial. Acreditamos piamente que um bom líder deve ser exemplo e deve ser servidor. Em outras palavras, um bom líder deve ser “executador de tarefas” e também um “servidor” dos seus colaboradores. Caso você não seja assim hoje, comece amanhã mesmo a ser e logo repare uma grande mudança na maneira que os outros vão se relacionar com você. Acreditamos que o modo de vender e se relacionar mudou completamente, não tendo mais espaço para amadorismo e para ultrapassados. É imprescindível que se use internet para se relacionar, fazer negócios e conexões. Iremos abordar sobre esses assuntos e muito mais no nosso Blog.",
+  "url": "https://institutoprogredir.com.br",
+  "niche": "Negócios e Empreendedorismo",
+  "keywords": "Nossa missao e orientar lideres a fazerem um trabalho eficiente e que",
+  "email": "contato@institutoprogredir.com.br",
+  "palette": "violet",
+  "colors": {
+    "primary": "#7c3aed",
+    "accent": "#5b21b6",
+    "dark": "#2e1065"
+  },
+  "headerContrast": "light",
+  "font": "montserrat",
+  "fontFamily": "'Montserrat', sans-serif",
+  "fontUrl": "https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap",
+  "components": {
+    "header": "Header-G",
+    "hero": "Hero-J",
+    "features": "Features-H",
+    "about": "About-H",
+    "posts": "Posts-H",
+    "footer": "Footer-J",
+    "sobre": "Sobre-D",
+    "contato": "Contato-G"
+  },
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
+      "label": "Sobre",
+      "href": "/sobre"
+    },
+    {
+      "label": "Contato",
+      "href": "/contato"
+    }
+  ],
+  "social": {
+    "instagram": "",
+    "facebook": "",
+    "twitter": "",
+    "youtube": ""
+  }
+}

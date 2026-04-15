@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "INSTITUTOPROGREDIR — Transforme Sua Liderança com o INSTITUTOPROGREDIR",
+    "description": "Aprenda a conduzir sua equipe com eficiência e resultado."
+  },
+  "hero": {
+    "title": "Transforme Sua Liderança com o INSTITUTOPROGREDIR",
+    "subtitle": "Aprenda a conduzir sua equipe com eficiência e resultado.",
+    "btnText": "Descubra Como",
+    "bgImage": "/images/hero.jpg",
+    "btnLink": "/blog"
+  },
+  "features": {
+    "title": "Nossos Serviços",
+    "items": [
+      {
+        "icon": "📈",
+        "title": "Mentoria em Liderança",
+        "desc": "Apoio individualizado para desenvolver suas habilidades de liderança e gestão de equipes."
+      },
+      {
+        "icon": "🌐",
+        "title": "Marketing Digital",
+        "desc": "Técnicas práticas para aumentar a visibilidade de sua marca e impulsionar suas vendas."
+      },
+      {
+        "icon": "📚",
+        "title": "Conteúdo Educativo",
+        "desc": "Artigos e recursos completos para você se manter atualizado sobre as melhores práticas de liderança."
+      },
+      {
+        "icon": "🤝",
+        "title": "Networking Eficiente",
+        "desc": "Conecte-se com outros líderes e empresários para troca de experiências e oportunidades."
+      }
+    ]
+  },
+  "about": {
+    "title": "Quem Somos",
+    "desc": "No INSTITUTOPROGREDIR, temos como missão orientar líderes em sua jornada de transformação. Acreditamos que um líder exemplar deve servir como um modelo e, ao mesmo tempo, executar tarefas de forma eficaz. Nós fornecemos ferramentas para construir uma liderança forte e uma marca de destaque no mundo digital.",
+    "stats": [
+      {
+        "value": "100+",
+        "label": "Líderes Transformados"
+      },
+      {
+        "value": "50+",
+        "label": "Conteúdos Exclusivos"
+      },
+      {
+        "value": "10+",
+        "label": "Anos de Experiência"
+      }
+    ],
+    "image": "/images/about.jpg",
+    "btnText": "Saiba Mais",
+    "btnLink": "/sobre"
+  },
+  "posts": {
+    "title": "Últimos Artigos",
+    "limit": 3,
+    "btnText": "Ver Blog",
+    "btnLink": "/blog"
+  }
+}
